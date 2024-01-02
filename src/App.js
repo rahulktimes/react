@@ -6,7 +6,7 @@ import Texts from './components/Texts.js';
 function App() {
   let modechk="";
   let custStyle={
-  color: 'green',
+  color: 'green', 
   backgroundColor: '#8a918c'
   }
   const [mystyle, setMystyle] = useState({color: 'black',
@@ -28,7 +28,7 @@ function App() {
     document.title="drak mode off";
     let modechk="";
     setMystyle({
-      color: 'black',
+      color: '#ddd !important',
       backgroundColor: '#8a918c'
         });
         let custStyle={
